@@ -1,3 +1,13 @@
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.example.student.rejstracjawizyt.R;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 /**
  * Created by student on 2018-01-31.
  */
@@ -31,18 +41,18 @@ public class adapter {
 
             // ustawienie nazwy leku oraz jego dawki
             @BindView(R.id.nazwiska)
-            TextView ItemNazwiska;
+            private TextView ItemNazwiska;
 
-            @BindView(R.id.dawka)
-            TextView ItemDawka;
+            @BindView(R.id.specjalizacja)
+            private TextView ItemDawka;
 
 
             private void setItemNazwiska(String nazwiska) {
-                ItemNazwa.setText(nazwa);
+                ItemNazwa.setText(nazwiska);
             }
 
             private void setItemSpecjalizacja(Integer specjalizacja) {
-                ItemDawka.setText(dawka);
+                ItemDawka.setText(specjalizacja);
             }
         }
     }

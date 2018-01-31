@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
     }
-@OnClick(R.id.wybierzlek)
+@OnClick(R.id.baton)
     void OnClick()
 {
     Intent intent = new Intent(this,Main2Activity.class);
