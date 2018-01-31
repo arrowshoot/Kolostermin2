@@ -44,15 +44,15 @@ public class adapter {
             private TextView ItemNazwiska;
 
             @BindView(R.id.specjalizacja)
-            private TextView ItemDawka;
+            private TextView ItemSpecjalizacja;
 
 
             private void setItemNazwiska(String nazwiska) {
-                ItemNazwa.setText(nazwiska);
+                ItemNazwiska.setText(nazwiska);
             }
 
-            private void setItemSpecjalizacja(Integer specjalizacja) {
-                ItemDawka.setText(specjalizacja);
+            private void setItemSpecjalizacja(String specjalizacja) {
+                ItemSpecjalizacja.setText(specjalizacja);
             }
         }
     }
