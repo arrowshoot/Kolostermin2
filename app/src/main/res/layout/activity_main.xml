@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.rejstracjawizyt.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:text="Umow Wizyte"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wpisz pesel pacjenta dla ktorego chcesz umowic wizyte"
+        tools:layout_editor_absoluteX="0dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Podaj numer pesel"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:text="Wybierz specjalistę"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="465dp"
+        android:id="@+id/baton"
+        />
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="165dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_people_black_24dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+</android.support.constraint.ConstraintLayout>
